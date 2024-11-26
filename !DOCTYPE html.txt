@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Кафе іноземних мов</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f1e9;
+            color: #4b3832;
+        }
+        header {
+            background-color: #dcc6af;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .section {
+            margin-bottom: 40px;
+        }
+        .section img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        h2 {
+            font-size: 1.8em;
+            margin-bottom: 20px;
+        }
+        p {
+            line-height: 1.6;
+        }
+        .menu {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .menu-item {
+            flex: 1 1 calc(33.333% - 20px);
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            overflow: hidden;
+            text-align: center;
+        }
+        .menu-item img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .menu-item h3 {
+            margin: 10px 0;
+        }
+        .menu-item p {
+            margin: 0 10px 10px;
+        }
+        footer {
+            background-color: #dcc6af;
+            text-align: center;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Кафе іноземних мов</h1>
+        <p>Івано-Франківськ | Контакти: +380 123 456 789</p>
+    </header>
+    <div class="container">
+        <section class="section">
+            <h2>Про нас</h2>
+            <p>Наше кафе — це місце, де любителі іноземних мов зустрічаються для практики, навчання та насолоди смачною кавою. Ми організовуємо розмовні клуби з носіями мови, майстер-класи та культурні заходи.</p>
+            <img src="image1.jpg" alt="Кафе">
+        </section>
+        <section class="section">
+            <h2>Меню</h2>
+            <div class="menu">
+                <div class="menu-item">
+                    <img src="image2.jpg" alt="Кава">
+                    <h3>Кавові напої</h3>
+                    <p>Капучино, Латте, Американо — від 40 грн</p>
+                </div>
+                <div class="menu-item">
+                    <img src="image3.jpg" alt="Десерти">
+                    <h3>Десерти</h3>
+                    <p>Чізкейк, Тірамісу, Еклер — від 50 грн</p>
+                </div>
+                <div class="menu-item">
+                    <img src="image1.jpg" alt="Особливості">
+                    <h3>Особливі напої</h3>
+                    <p>Матча, авторські коктейлі — від 60 грн</p>
+                </div>
+            </div>
+        </section>
+        <section class="section">
+            <h2>Події</h2>
+            <p>Щосереди та щосуботи о 18:00 проходять розмовні клуби з носіями мови. Приходьте, щоб покращити свої мовні навички та знайти нових друзів!</p>
+        </section>
+    </div>
+    <footer>
+        <p>© 2024 Кафе іноземних мов. Усі права захищено.</p>
+    </footer>
+</body>
+</html>
